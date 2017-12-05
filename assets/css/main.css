@@ -1,0 +1,104 @@
+/* Los estilos de tu proyecto */
+.body{
+  margin: 0 auto;
+}
+.correct{
+  margin-right: 0 auto;
+}
+}
+.nav{
+  background: #fff;
+  border: none;
+}
+
+.register{
+	background-image: url(../images/taxi.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 10em;
+  padding-top: 10em;
+}
+
+.yellowbox{
+	background-color: #F7B617;
+	color: #fff;
+}
+
+.line::after, .line::before{
+  content: "";
+  display: inline-block;
+  width: 6em;
+  height: 0.1em;
+  background-color: #fff;
+  margin: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.yellow-parragraph{
+  margin: 0.2em;
+}
+
+.logo-parragraph{
+  display: inline-block;
+  padding-top: 2em;
+  padding-left: 0.8em;
+}
+
+.white-logo{
+  width: 4em;
+}
+
+.download{
+	background: #F7B617;
+  color: #fff;
+}
+
+.driver-button, .register-button{
+  margin: 1em;
+}
+
+.iphone{
+  margin: 2em;
+  width: 20em;
+}
+
+.iphone-parragraph{
+  padding: 4em;
+}
+
+.handle{
+  background-image: url(../images/conduce.jpg);
+  background-size: 100%;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.driver{
+  background: rgba(0,0,0,0.5); /*dejar fondo trans*/
+  padding: 10em;
+}
+
+.map-section{
+  background: #F7B617;
+  color: #fff;
+}
+
+.map-input{
+  background: #F7B617;
+  border: 0.1em solid #fff;
+  color: #fff;
+  border-radius: 5em;
+}
+
+footer{
+  background-color: #2F2F2F;
+  color:#fff;
+}
+
+.appstore{
+  width: 7em;
+}
