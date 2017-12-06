@@ -2,13 +2,14 @@
 .body{
   margin: 0 auto;
 }
-.correct{
-  margin-right: 0 auto;
-}
-}
+
 .nav{
   background: #fff;
   border: none;
+}
+
+.header-parragraph{
+  padding-top: 1em;
 }
 
 .register{
@@ -25,29 +26,34 @@
 	color: #fff;
 }
 
+.line {
+  margin: 0.5em;
+}
+
 .line::after, .line::before{
   content: "";
   display: inline-block;
-  width: 6em;
+  width: 7em;
   height: 0.1em;
   background-color: #fff;
-  margin: 1%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .yellow-parragraph{
-  margin: 0.2em;
+  margin: 0.5em;
+  padding:0.1em;
 }
 
 .logo-parragraph{
   display: inline-block;
   padding-top: 2em;
   padding-left: 0.8em;
+  margin: 0.5em;
 }
 
 .white-logo{
-  width: 4em;
+  width: 5em;
 }
 
 .download{
@@ -56,7 +62,8 @@
 }
 
 .driver-button, .register-button{
-  margin: 1em;
+  margin: 0.5em;
+  margin-bottom: 1em;
 }
 
 .iphone{
