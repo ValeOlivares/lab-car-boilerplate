@@ -8,6 +8,11 @@
   border: none;
 }
 
+.bars{
+  margin:1em;
+  color: #888888;
+}
+
 .header-parragraph{
   padding-top: 1em;
 }
@@ -86,7 +91,7 @@
 
 .driver{
   background: rgba(0,0,0,0.5); /*dejar fondo trans*/
-  padding: 10em;
+  padding: 8em;
 }
 
 .map-section{
