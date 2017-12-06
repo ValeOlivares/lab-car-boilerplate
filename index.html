@@ -22,13 +22,60 @@
       </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
-        <li class="header-parragraph "><a href="#">Viaja</a></li>
-        <li class="header-parragraph "><a href="#">Conduce</a></li>
-        <li class="header-parragraph "><a href="#">Inicia Sesión</a></li>
+        <a href="#" class="btn btn-primary btn-lg header-parragraph">Viaja</a>
+        <a href="#" class="btn btn-primary btn-lg header-parragraph">Conduce</a>
+        <a href="#modal1" class="btn btn-primary btn-lg header-parragraph" data-toggle="modal">Inicia Sesión</a>
       </ul>
     </div>
   </div>
   </nav>
+   <div class="modal fade" id="modal1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button tyle "button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-1 col-md-offset-5">
+                <i class="fa fa-user-circle fa-5x " aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6" col-md-offset-3>
+                <div class="input-group username">
+                  <span class="input-group-addon username" id="basic-addon1"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control username" placeholder="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6" col-md-offset-3>
+                <div class="input-group password">
+                  <span class="input-group-addon password" id="basic-addon1"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control password" placeholder="Password" aria-describedby="basic-addon1">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6" col-md-offset-3>
+                <div class="input-group">
+                   <button type="button" class="btn btn-default">LOGIN</button>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6" col-md-offset-3>
+                <div class="input-group">
+                   <p>Forgot Password <a href="Click Here"></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+    </div>
   </section>
   <section class="register correct">
     <div class="container-fluid">
