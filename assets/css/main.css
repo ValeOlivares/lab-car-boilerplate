@@ -146,6 +146,6 @@ footer{
   width: 7em;
 }
 
-.username, .password{
-  margin-bottom: : 0.5em;
+.login{
+  margin: 2em;
 }
